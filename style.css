@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Viaoda+Libre&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Viaoda Libre';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: #232323;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main img {
+    height: 900px;
+} 
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-text {
+    left: 600px;
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    width: 800px;
+}
+
+.characteristics {
+    background-color: #FFFFF2;
+    padding-top: 95px;
+}
+
+.characteristics h1 {
+    color: #000;
+    font-size: 55px;
+}
+
+.char-text {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.char-text-1 h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.char-text-1, .char-text-2 {
+    font-size: 24px;
+}
+
+.char-text-1 p {
+    margin-top: 37px;
+}
+
+.char-text-1 {
+    width: 677px;
+}
+
+.char-text-2 {
+    width: 431px;
+}
+
+.char-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-bottom: 65px;
+}
+
+.char-image img {
+    width: 350px;   
+}
+
+.differences h1, .differences p, .differences ul {
+    color: #fff;
+}
+
+.differences h1 {
+    font-size: 38px;
+    padding-top: 40px;
+}
+
+.differences {
+    background-color: #232323;
+}
+
+.diff-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.diff-text {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.diff-text p {
+    margin-top: 123px;
+    width: 470px;
+}
+
+.diff-image img {
+    width: 400px;
+    height: 590px;
+}
+
+.diff-text ul {
+    margin-left: 20px;
+    line-height: 47px;
+}
+
+.diff-image {
+    margin-bottom: 300px;
+}
+
+.last-block {
+    background-color: #FFFFF2;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.last-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-image img {
+    position: absolute;
+    width: 580px;
+    height: 520px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFF2;
+}
+
+.end h1 {
+    color: #000;
+}
